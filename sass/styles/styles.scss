@@ -1,12 +1,20 @@
 @charset "utf-8";
 @import "../bulma/bulma.sass";
 @import "./custom.scss";
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap');
 
 .main-app {
   background-color: $my-background;
 
   .has-text-light {
     color: $my-text-light !important;
+  }
+
+  .my-page-title {
+    font-family: Syncopate, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 6em;
+    line-height: 0.95em;
+    word-wrap: break-word;
   }
 
   .my-image {

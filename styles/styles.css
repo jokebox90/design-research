@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /*! bulma.io v0.9.4 | MIT License | github.com/jgthms/bulma */
 /* Bulma Utilities */
+@import url("https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap");
 .pagination-previous,
 .pagination-next,
 .pagination-link,
@@ -10354,6 +10355,12 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 .main-app .has-text-light {
   color: #E2E2E2 !important;
+}
+.main-app .my-page-title {
+  font-family: Syncopate, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 6em;
+  line-height: 0.95em;
+  word-wrap: break-word;
 }
 .main-app .my-image {
   border: 6px solid #FFCC80;

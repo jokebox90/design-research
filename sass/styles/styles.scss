@@ -17,38 +17,55 @@
     word-wrap: break-word;
   }
 
-  .my-image {
-    border: 6px solid #FFCC80;
-    box-shadow: 0 0 30px 10px #E65100;
-    border-radius: 20px;
-    overflow: hidden;
+
+}
+
+$neon-radius: 20px;
+$neon-shadow: 0 0 30px 10px;
+$neon-border: 6px solid;
+
+$neon-yellow: #E65100;
+$neon-yellow-light: #FFCC80;
+$neon-lime: #AEEA00;
+$neon-lime-light: #EEFF41;
+$neon-cyan: #26C6DA;
+$neon-cyan-light: #E0F7FA;
+$neon-purple: #6A1B9A;
+$neon-purple-light: #CE93D8;
+$neon-pink: #C2185B;
+$neon-pink-light: #CE93D8;
+
+.neon {
+  border-radius: $neon-radius;
+  overflow: hidden;
+
+  &-yellow {
+    @extend .neon;
+    border: $neon-border $neon-yellow;
+    box-shadow: $neon-shadow $neon-yellow-light;
   }
 
-  .my-monnaie {
-    border: 6px solid #CE93D8;
-    box-shadow: 0 0 30px 10px #6A1B9A;
-    border-radius: 20px;
-    overflow: hidden;
+  &-lime {
+    @extend .neon;
+    border: $neon-border $neon-lime;
+    box-shadow: $neon-shadow $neon-lime-light;
   }
 
-  .my-automne {
-    border: 6px solid #F48FB1;
-    box-shadow: 0 0 30px 10px #C2185B;
-    border-radius: 20px;
-    overflow: hidden;
+  &-cyan {
+    @extend .neon;
+    border: $neon-border $neon-cyan;
+    box-shadow: $neon-shadow $neon-cyan-light;
   }
 
-  .my-piscine {
-    border: 6px solid #E0F7FA;
-    box-shadow: 0 0 30px 20px #26C6DA;
-    border-radius: 20px;
-    overflow: hidden;
+  &-pink {
+    @extend .neon;
+    border: $neon-border $neon-pink;
+    box-shadow: $neon-shadow $neon-pink-light;
   }
 
-  .my-automne-2 {
-    border: 6px solid #EEFF41;
-    box-shadow: 0 0 30px 10px #AEEA00;
-    border-radius: 20px;
-    overflow: hidden;
+  &-purple {
+    @extend .neon;
+    border: $neon-border $neon-purple;
+    box-shadow: $neon-shadow $neon-purple-light;
   }
 }

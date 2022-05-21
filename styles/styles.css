@@ -10362,33 +10362,28 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   line-height: 0.95em;
   word-wrap: break-word;
 }
-.main-app .my-image {
-  border: 6px solid #FFCC80;
-  box-shadow: 0 0 30px 10px #E65100;
+
+.neon, .neon-purple, .neon-pink, .neon-cyan, .neon-lime, .neon-yellow {
   border-radius: 20px;
   overflow: hidden;
 }
-.main-app .my-monnaie {
-  border: 6px solid #CE93D8;
-  box-shadow: 0 0 30px 10px #6A1B9A;
-  border-radius: 20px;
-  overflow: hidden;
+.neon-yellow {
+  border: 6px solid #E65100;
+  box-shadow: 0 0 30px 10px #FFCC80;
 }
-.main-app .my-automne {
-  border: 6px solid #F48FB1;
-  box-shadow: 0 0 30px 10px #C2185B;
-  border-radius: 20px;
-  overflow: hidden;
+.neon-lime {
+  border: 6px solid #AEEA00;
+  box-shadow: 0 0 30px 10px #EEFF41;
 }
-.main-app .my-piscine {
-  border: 6px solid #E0F7FA;
-  box-shadow: 0 0 30px 20px #26C6DA;
-  border-radius: 20px;
-  overflow: hidden;
+.neon-cyan {
+  border: 6px solid #26C6DA;
+  box-shadow: 0 0 30px 10px #E0F7FA;
 }
-.main-app .my-automne-2 {
-  border: 6px solid #EEFF41;
-  box-shadow: 0 0 30px 10px #AEEA00;
-  border-radius: 20px;
-  overflow: hidden;
+.neon-pink {
+  border: 6px solid #C2185B;
+  box-shadow: 0 0 30px 10px #CE93D8;
+}
+.neon-purple {
+  border: 6px solid #6A1B9A;
+  box-shadow: 0 0 30px 10px #CE93D8;
 }

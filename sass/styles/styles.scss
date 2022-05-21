@@ -1,0 +1,46 @@
+@charset "utf-8";
+@import "../bulma/bulma.sass";
+@import "./custom.scss";
+
+.main-app {
+  background-color: $my-background;
+
+  .has-text-light {
+    color: $my-text-light !important;
+  }
+
+  .my-image {
+    border: 6px solid #FFCC80;
+    box-shadow: 0 0 30px 10px #E65100;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .my-monnaie {
+    border: 6px solid #CE93D8;
+    box-shadow: 0 0 30px 10px #6A1B9A;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .my-automne {
+    border: 6px solid #F48FB1;
+    box-shadow: 0 0 30px 10px #C2185B;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .my-piscine {
+    border: 6px solid #E0F7FA;
+    box-shadow: 0 0 30px 20px #26C6DA;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .my-automne-2 {
+    border: 6px solid #EEFF41;
+    box-shadow: 0 0 30px 10px #AEEA00;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+}
